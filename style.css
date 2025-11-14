@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+
+.parent {
+  font-family: "lexend", sans-serif;
+  border-style: dashed;
+  border-width: 3px;
+  border-color: darkblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.child {
+  font-size: 30px;
+  font-weight: 800;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 8px;
+  border-color: darkblue;
+  background-color: rgb(201, 211, 230);
+  color: darkblue;
+  padding: 16px;
+  margin: 5px;
+}
+
+/*-----------MEDIA QUERIES-----------*/
+
+@media (max-width: 500px) {
+  .parent{
+    padding: 15px 0;
+  }
+  .child {
+    flex-basis: 80%;
+    text-align: center;
+  }
+}
