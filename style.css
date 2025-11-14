@@ -25,6 +25,27 @@
   margin: 5px;
 }
 
+.parent .child:nth-child(1),
+.parent .child:nth-child(17),
+.parent .child:nth-child(20),
+.parent .child:nth-child(26) {
+  background-color: rgb(216, 241, 191);
+  color: darkgreen;
+  border-color: darkgreen;
+}
+.parent .child:nth-child(9),
+.parent .child:nth-child(13),
+.parent .child:nth-child(14) {
+  background-color: rgb(222, 179, 235);
+  color: rgb(75, 2, 94);
+  border-color: rgb(75, 2, 94);
+}
+.parent .child:nth-child(5) {
+  background-color: rgb(248, 208, 228);
+  color:  rgb(252, 0, 126);
+  border-color: rgb(252, 0, 126);
+}
+
 /*-----------MEDIA QUERIES-----------*/
 
 @media (max-width: 500px) {
@@ -35,4 +56,5 @@
     flex-basis: 80%;
     text-align: center;
   }
+
 }
