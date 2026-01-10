@@ -5,7 +5,7 @@ The element with the class of “parent” is centered on the page even if the s
 The div elements with the class “child” have background colors, borders, rounded corners and margins between them.
 The div elements with the class “child” stay inside the element with the class parent even if the screen size changes
 You must not change the HTML in anyway.<br>
--website of result: [https://angel-justice.github.io/Parents-and-Children-CSS-Challenge/](https://angelamcleary.github.io/Parents-and-Children-CSS-Challenge/)
+-website of result: [https://angelamcleary.github.io/Parents-and-Children-CSS-Challenge/](https://angelamcleary.github.io/Parents-and-Children-CSS-Challenge/)
 
 
 ## Extra challenge
